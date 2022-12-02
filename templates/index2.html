@@ -1,10 +1,17 @@
-
-
 {% extends "index1.html" %}
 {% block content %}
-<form>
-    <label>Element name</label>
-    <input name="element"></input>
-    <input type="submit"/>
-</form>
+
+<body>
+   <h2 class="second">Kontakt</h2>
+    <ul>
+        <li>email: dddd@gmail.com</li>
+        <li>telefon: +48111111111</li>
+    </ul>
+    <h3>
+        <label for="message">Wyślij wiadomość</label>
+        <input type="text" id="message" name="message"><br>        
+        <input type="submit" value="Send">
+    </h3>
+</body>
+</html>
 {% endblock %}
