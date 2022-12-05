@@ -13,6 +13,7 @@ def contact():
         return render_template('index2.html')
     if request.method == 'POST':
         message = request.form['message']
+        # print(message)
         return render_template('message.html', message=message)
 
 if __name__ == '__main__':
